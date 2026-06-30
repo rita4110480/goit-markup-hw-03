@@ -1,0 +1,72 @@
+/*Family: Roboto Weight: Bold | 700 Size: 56px Line Height: 60px | 1.07 Letter Spacing: 2% | 0.02em/*/
+.header {
+    background-color: #ffffff;     
+}
+.logo span {
+    text-transform: uppercase;    
+    color: #2e2f42;
+    font-size: 18px;
+}
+.logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: 0.03em;
+        color: #4d5ae5;
+        background-color: #fff;
+    text-transform: uppercase;     
+}
+    /*letter-spacing was 1.17*/
+.features {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio { 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;  
+     color: #2e2f42;
+}
+/*Family: Roboto Weight: Regular | 400 Size: 12px Line Height: 16px | 1.33 Letter Spacing: 4% | 0.04em Decoration: Underline Decoration Skip Ink: None*/
+.email {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+font-style: normal;
+color: #434455;
+}
+.phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    font-style: normal;
+    color: #434455;
+}
+.features:hover,
+.features:focus,
+.team:hover,
+.team:focus,
+.portfolio:hover,
+.portfolio:focus,
+.email:hover,
+.email:focus,
+.phone:hover,
+.phone:focus {
+    color: #404BBF;
+}
