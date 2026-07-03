@@ -1,6 +1,24 @@
-/*Family: Roboto Weight: Bold | 700 Size: 56px Line Height: 60px | 1.07 Letter Spacing: 2% | 0.02em/*/
 .header {
-    background-color: #ffffff;     
+    background-color: #ffffff;  
+      
+}
+.header.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+.contact-list {
+    display: flex;
+    gap: 40px;
 }
 .logo span {
     text-transform: uppercase;    
@@ -39,7 +57,9 @@
     letter-spacing: 0.02em;  
      color: #2e2f42;
 }
-/*Family: Roboto Weight: Regular | 400 Size: 12px Line Height: 16px | 1.33 Letter Spacing: 4% | 0.04em Decoration: Underline Decoration Skip Ink: None*/
+.address {
+    margin-left: auto;
+}
 .email {
 font-weight: 400;
 font-size: 16px;
@@ -70,3 +90,4 @@ color: #434455;
 .phone:focus {
     color: #404BBF;
 }
+
