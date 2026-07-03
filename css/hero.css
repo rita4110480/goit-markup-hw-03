@@ -20,7 +20,11 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: #4D5AE5;
 }
-.button:hover,
+
+.button:hover {
+background-color: #404bbf;
+}
+
 .button:focus {
-    background-color: #404bbf;    
+ background-color: #404bbf;
 }

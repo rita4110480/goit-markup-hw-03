@@ -1,0 +1,9 @@
+  .container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+  }
+  
