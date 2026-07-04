@@ -1,10 +1,14 @@
 /*Family: Roboto Weight: Bold | 700 Size: 36px Line Height: 40px | 1.11 Letter Spacing: 2% | 0.02em*/
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .team-item {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 72) / 4);
 }
+
 .team-title {
 font-weight: 700;
 font-size: 36px;
@@ -12,6 +16,8 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2E2F42;
 text-align: center;
+ margin-bottom: 72px;
+ text-align: center;
 }
 /*Family: Roboto Weight: Medium | 500 Size: 20px Line Height: 24px | 1.20 Letter Spacing: 2% | 0.02em*/
 .team-subtitle {
@@ -21,6 +27,8 @@ text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
+    margin-bottom: 8pxS;
+    margin-top: 32px;
 }
 /*Family: Roboto Weight: Regular | 400 Size: 12px Line Height: 14px | 1.17 Letter Spacing: 4% | 0.04em*/
 .team-text {
@@ -30,4 +38,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-align: center;
+margin-bottom: 32px;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
 }

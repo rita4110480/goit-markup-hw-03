@@ -1,16 +1,12 @@
 .header {
     background-color: #ffffff;  
-      
+    border-bottom: 1px solid #E7E9FC;
+    padding: 24px 0;      
 }
-.header.container {
+.header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-.navigation {
-    display: flex;
-    align-items: center;
-    gap: 76px;
+    align-items: center;    
 }
 .nav-list {
     display: flex;
@@ -56,9 +52,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;  
      color: #2e2f42;
-}
-.address {
-    margin-left: auto;
 }
 .email {
 font-weight: 400;

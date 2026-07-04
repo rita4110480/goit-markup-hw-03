@@ -1,5 +1,6 @@
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0px;
 }
 .footer-link{
     font-family: 'Raleway';
@@ -20,6 +21,8 @@ text-transform: uppercase;
         letter-spacing: 0.03em;               
         color: #4D5AE5;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
 }   
 .footer-text {
         font-weight: 400;
@@ -27,4 +30,5 @@ text-transform: uppercase;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        max-width: 264px;
 }
