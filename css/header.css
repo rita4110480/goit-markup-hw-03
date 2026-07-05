@@ -4,13 +4,18 @@
     padding: 24px 0;      
 }
 .header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
+    display: flex;    
+    align-items: center; 
+    padding: 24px o;
+    gap: 76px;   
 }
 .nav-list {
     display: flex;
     gap: 40px;
+
+}
+.nav-list li a {
+    display: inline-block;
 }
 .contact-list {
     display: flex;
@@ -29,7 +34,8 @@
         letter-spacing: 0.03em;
         color: #4d5ae5;
         background-color: #fff;
-    text-transform: uppercase;     
+    text-transform: uppercase;
+
 }
     /*letter-spacing was 1.17*/
 .features {
@@ -38,6 +44,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .team {
     font-weight: 500;
@@ -45,13 +52,15 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .portfolio { 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;  
-     color: #2e2f42;
+    color: #2e2f42;
+    padding: 24px 0;
 }
 .email {
 font-weight: 400;
