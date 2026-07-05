@@ -27,8 +27,7 @@ text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
-    margin-bottom: 8px;
-    margin-top: 32px;
+    margin-bottom: 8px;    
 }
 /*Family: Roboto Weight: Regular | 400 Size: 12px Line Height: 14px | 1.17 Letter Spacing: 4% | 0.04em*/
 .team-text {
@@ -45,5 +44,5 @@ margin-bottom: 0;
     gap: 24px;
 }
 .team-content {
-    padding: 32px 16p;
+    padding: 32px 16px;
 }

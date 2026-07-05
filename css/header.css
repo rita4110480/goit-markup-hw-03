@@ -1,13 +1,11 @@
 .header {
     background-color: #ffffff;  
-    border-bottom: 1px solid #E7E9FC;
-    padding: 24px 0;      
+    border-bottom: 1px solid #E7E9FC;         
 }
 .header .container {
     display: flex;    
     align-items: center; 
-    padding: 24px o;
-    gap: 76px;   
+    padding: 24px 0;      
 }
 .nav-list {
     display: flex;
@@ -16,6 +14,7 @@
 }
 .nav-list li a {
     display: inline-block;
+    padding: 24px 0;
 }
 .contact-list {
     display: flex;
@@ -34,8 +33,8 @@
         letter-spacing: 0.03em;
         color: #4d5ae5;
         background-color: #fff;
-    text-transform: uppercase;
-
+        text-transform: uppercase;  
+        margin-right: 76px;  
 }
     /*letter-spacing was 1.17*/
 .features {
@@ -61,6 +60,9 @@
     letter-spacing: 0.02em;  
     color: #2e2f42;
     padding: 24px 0;
+}
+.address {
+    margin-left: auto;
 }
 .email {
 font-weight: 400;
