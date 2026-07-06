@@ -31,53 +31,24 @@
         margin-right: 76px;  
 }
     /*letter-spacing was 1.17*/
-.features {
+.link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding: 24px 0;
-    display: inline-block;
-}
-.team {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding: 24px 0;
-    display: inline-block;
-}
-.portfolio { 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;  
     color: #2e2f42;
     padding: 24px 0;
     display: inline-block;
 }
 .address {
-    margin-left: auto;
-}
-.email {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-decoration: none;
-font-style: normal;
-color: #434455;
-}
-.phone {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
     color: #434455;
+    line-height: 1.5;
+    margin-left: auto;
 }
 .features:hover,
 .features:focus,
